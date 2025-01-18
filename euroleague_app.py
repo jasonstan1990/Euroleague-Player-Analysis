@@ -23,7 +23,8 @@ st.markdown("""
 
 
 # Προσθήκη banner εικόνας στο sidebar
-st.sidebar.image("euroleague-ball.png", use_column_width=True)
+st.sidebar.image("euroleague-ball.png", use_container_width=True)
+
 
 # Λήψη Δεδομένων
 #st.sidebar.header("Λήψη Δεδομένων")
