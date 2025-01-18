@@ -1,3 +1,4 @@
+python-3.7
 streamlit
 pandas
 matplotlib
@@ -5,4 +6,3 @@ seaborn
 numpy 
 pulp
 plotly
-python-3.9.7
