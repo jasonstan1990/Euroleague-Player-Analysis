@@ -6,3 +6,4 @@ numpy
 pulp
 plotly
 openpyxl
+statsmodels
