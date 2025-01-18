@@ -1,0 +1,11 @@
+streamlit
+pandas
+matplotlib
+seaborn
+numpy 
+plotly.graph_objects
+plotly.express
+pulp
+plotly
+sklearn.preprocessing 
+sklearn.neighbors 
