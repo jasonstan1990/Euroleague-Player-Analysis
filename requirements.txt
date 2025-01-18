@@ -7,3 +7,5 @@ pulp
 plotly
 openpyxl
 statsmodels
+scikit-learn
+
