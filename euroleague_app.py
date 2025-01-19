@@ -6,7 +6,7 @@ import plotly.express as px
 
 
 # Ρυθμίσεις σελίδας
-st.set_page_config(page_title="Euroleague Player Analysis",  layout="wide")
+st.set_page_config(page_title="Euroleague Player Analysis", layout="wide")
 
 # Τίτλος Εφαρμογής
 st.title("Euroleague: Ανακάλυψε τους Υποτιμημένους Παίκτες")
