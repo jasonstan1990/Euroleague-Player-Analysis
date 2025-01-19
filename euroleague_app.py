@@ -23,8 +23,7 @@ st.markdown("""
 
 
 # Προσθήκη banner εικόνας στο sidebar
-st.sidebar.image("euroleague-ball.png", use_container_width=True)
-
+st.sidebar.image("dream5.png", use_column_width=True)
 
 # Λήψη Δεδομένων
 #st.sidebar.header("Λήψη Δεδομένων")
@@ -195,7 +194,7 @@ st.markdown("""
     Η μεθοδολογία αυτή μας επιτρέπει να κατανοήσουμε ποιοι παίκτες έχουν πιο ισχυρό σύνολο δεξιοτήτων, 
     βοηθώντας στην αξιολόγηση υποτιμημένων παικτών για τη δημιουργία μιας ισχυρότερης ομάδας.
 """)
-#selected_players = st.multiselect("Επιλέξτε Παίκτες για Σύγκριση", options=filtered_data["Player"].unique())
+selected_players = st.multiselect("Επιλέξτε Παίκτες για Σύγκριση", options=filtered_data["Player"].unique())
 
 # Αν δεν επιλεγούν παίκτες, επιλέγονται όλοι οι παίκτες από τα φιλτραρισμένα δεδομένα
 if len(selected_players) == 0:
@@ -238,6 +237,9 @@ if len(radar_data) >= 1:
     st.plotly_chart(fig)
 else:
     st.write("Δεν υπάρχουν παίκτες που να πληρούν τα κριτήρια φιλτραρίσματος.")
+
+
+
 
 
 
