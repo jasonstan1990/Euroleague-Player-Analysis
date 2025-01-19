@@ -6,7 +6,7 @@ import plotly.express as px
 
 
 # Ρυθμίσεις σελίδας
-st.set_page_config(page_title="Euroleague Player Analysis", use_container_width=True)
+st.set_page_config(page_title="Euroleague Player Analysis",  layout="wide")
 
 # Τίτλος Εφαρμογής
 st.title("Euroleague: Ανακάλυψε τους Υποτιμημένους Παίκτες")
@@ -23,7 +23,7 @@ st.markdown("""
 
 
 # Προσθήκη banner εικόνας στο sidebar
-st.sidebar.image("dream5.png", use_column_width=True)
+st.sidebar.image("dream5.png",  use_container_width=True)
 
 # Λήψη Δεδομένων
 #st.sidebar.header("Λήψη Δεδομένων")
